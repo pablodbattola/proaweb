@@ -1,0 +1,47 @@
+# ⚠️ ARCHIVOS SENSIBLES
+.env
+*.env
+
+# ⚙️ ARCHIVOS DE PYTHON
+__pycache__/
+*.py[cod]
+*.so
+*.pyo
+*.pyd
+
+# 🗃️ BASE DE DATOS TEMPORAL (si usás SQLite para pruebas)
+*.sqlite3
+
+# 🛠️ MIGRACIONES CACHÉ
+**/migrations/__pycache__/
+**/migrations/*.py[cod]
+
+# 🧪 ARCHIVOS DE TEST CACHEADOS
+.coverage
+htmlcov/
+*.log
+
+# 🔧 ENTORNOS VIRTUALES
+env/
+venv/
+ENV/
+.venv/
+
+# 🎨 ARCHIVOS ESTÁTICOS COMPILADOS
+staticfiles/
+static/
+media/
+
+# ⚙️ ARCHIVOS DE DJANGO
+db.sqlite3
+
+# 🧠 CONFIGURACIONES DE EDITORES
+.vscode/
+.idea/
+*.swp
+
+# 📦 DEPLOY
+*.bak
+*.tmp
+.DS_Store
+Thumbs.db

@@ -1,0 +1,14 @@
+{% extends "myapp/layout.html" %}
+
+{% block title %}
+Lista de alumnos
+{% endblock %}
+
+{% block content %}
+<h1>Lista de alumnos</h1>
+<ul>
+  {% for alumno in alumnos %}
+  <li>{{ alumno }}</li>
+  {% endfor %}
+</ul>
+{% endblock %}
